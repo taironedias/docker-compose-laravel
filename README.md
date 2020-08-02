@@ -19,7 +19,7 @@ Everything running perfectly (if you don't have the images installed on your sys
 
 - **php composer**: `docker-compose run --rm composer update`
 - **artisan**: `docker-compose run --rm artisan migrate` 
-- **npm**: `docker-compose run --rm npm run dev`
+- **npm**: `docker-compose run --rm npm install` and `docker-compose run --rm npm run dev`
 
 ## Persistent MySQL Storage
 
