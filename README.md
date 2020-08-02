@@ -14,11 +14,11 @@ Everything running perfectly (if you don't have the images installed on your sys
 - **nginx** - `:8080`
 - **mysql** - `:3306`
 - **php** - `:9000`
+
 <br/>
+
 - **php composer**: `docker-compose run --rm composer update`
-
 - **artisan**: `docker-compose run --rm artisan migrate` 
-
 - **npm**: `docker-compose run --rm npm run dev`
 
 ## Persistent MySQL Storage
