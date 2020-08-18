@@ -20,7 +20,7 @@ rm -rf .git README.md
 
 docker run --rm -v $(pwd):/app composer install
 
-sudo chown -R $USER:$USER ~/NAME_YOUR_PROJECT
+sudo chown -R $USER:$USER $(pwd)
 ```
 
 > Note: All files and directories created in the next steps are inside the NAME_YOUR_PROJECT folder
