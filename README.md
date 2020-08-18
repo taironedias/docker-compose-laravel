@@ -16,6 +16,8 @@ git clone https://github.com/laravel/laravel.git NAME_YOUR_PROJECT
 
 cd ~/NAME_YOUR_PROJECT
 
+rm -rf .git README.md
+
 docker run --rm -v $(pwd):/app composer install
 
 sudo chown -R $USER:$USER ~/NAME_YOUR_PROJECT
