@@ -39,7 +39,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: digitalocean.com/php74
+    image: taironedias/php74
     container_name: app
     restart: unless-stopped
     tty: true
