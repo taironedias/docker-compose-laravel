@@ -264,6 +264,12 @@ You now have the environment settings required to run your application. To cache
 docker-compose exec app php artisan config:cache
 ```
 
+**NOTE:** Any and all changes made to `.env` are necessary to execute the command below:
+
+```bash
+docker-compose exec app php artisan config:clear
+```
+
 ## Step 8 — Add Bootstrap in Laravel Project
 Initially, download the dependencies for the project:
 ```bash
